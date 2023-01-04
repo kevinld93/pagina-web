@@ -1,0 +1,85 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+ .text{
+    font-family: 'Dancing Script' ;
+    font-size: medium;
+}
+
+body{
+    background-color: grey;
+}
+.sobre{
+    background-color: black;
+    color: white;
+    text-align: center;
+  
+    
+}
+#sobre:hover{
+    background-color:gray;
+    padding-left: 0.2cm;
+    padding-right: 0.2cm;
+    
+    font-size:large;
+   
+}
+#Formacion:hover{
+    background-color:gray;
+    font-size:large;
+   
+   
+}
+#trabajo:hover{
+    background-color:gray;
+    font-size:large;
+  
+    
+}
+#redes-sociales:hover{
+    background-color:gray;
+    font-size:large;
+  
+  
+}
+.about{
+    background-color: black;
+    color: white;
+    height: 10cm;
+    width: 50%;
+    position: absolute;
+    top: 3cm;
+    left: 10cm;
+  
+}
+@media (max-width: 500px) {
+    .about{
+      position:relative;
+      top: 0.2cm;
+     left: 0.2cm;
+     height: 10cm;
+     width: 7cm;
+      margin-bottom:1cm;
+      padding-right:0.2cm;
+      font-size: smaller;
+    }}
+    @media (max-width: 500px) {
+        #t{
+         font-size: smaller;
+        }}
+#titulo{
+    font-family: 'Dancing Script' ;
+     
+     
+}
+
+#t{
+    font-family: 'Dancing Script' ; 
+    font-size: larger; 
+}
+#contac{
+    font-size: smaller;
+}
+.card-body{
+    background-color: black;
+    color: white;
+}
